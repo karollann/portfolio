@@ -1,0 +1,15 @@
+.carousel-container {
+  .react-multiple-carousel__arrow--right {
+    right: 2px;
+    &::before {
+      transform: translateX(2px);
+    }
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 2px;
+
+    &::before {
+      transform: translateX(-2px);
+    }
+  }
+}
