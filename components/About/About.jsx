@@ -1,5 +1,5 @@
-import styles from "../styles/components/_about.module.scss";
-import { Section } from "./Section";
+import styles from "./about.module.scss";
+import { Section } from "../Section/Section";
 
 export const About = () => {
   return (

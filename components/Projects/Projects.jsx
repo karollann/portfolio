@@ -1,7 +1,7 @@
-import { Section } from "./Section";
-import { projectCardData } from "./Carousel";
-import { ProjectRow } from "./ProjectRow";
-import styles from "../styles/components/_project.module.scss";
+import { Section } from "../Section/Section";
+import { projectCardData } from "../Carousel/Carousel";
+import { ProjectRow } from "../ProjectRow/ProjectRow";
+import styles from "./project.module.scss";
 
 export const Projects = () => {
   return (

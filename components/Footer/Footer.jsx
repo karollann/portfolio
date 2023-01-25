@@ -1,10 +1,9 @@
-import Link from "next/link";
-import IconGithub from "./icons/IconGithub";
-import IconLinkedin from "./icons/IconLinkedin";
-import IconInstagram from "./icons/IconInstagram";
-import IconMail from "./icons/IconMail";
+import IconGithub from "../Icons/IconGithub";
+import IconLinkedin from "../Icons/IconLinkedin";
+import IconInstagram from "../Icons/IconInstagram";
+import IconMail from "../Icons/IconMail";
 
-import styles from "../styles/components/_footer.module.scss";
+import styles from "./footer.module.scss";
 
 export const Footer = () => {
   return (
@@ -22,50 +21,52 @@ export const Footer = () => {
           Built by Karol Lann Vel Lace
         </span>
       </div>
-      <div className={`${styles["footer__list-container"]}`}>
+      <div className={`${styles["footer__listContainer"]}`}>
         <ul className={styles.footer__list}>
-          <li className={`${styles["footer__list-item"]}`}>
+          <li className={`${styles["footer__list--item"]}`}>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://github.com/karollann"
-              className={`${styles["footer__list-link"]}`}
+              className={`${styles["footer__list--link"]}`}
             >
               <IconGithub width="36px" height="35px" />
-              <span className={`${styles["footer__list-text"]}`}>GitHub</span>
+              <span className={`${styles["footer__list--text"]}`}>GitHub</span>
             </a>
           </li>
-          <li className={`${styles["footer__list-item"]}`}>
+          <li className={`${styles["footer__list--item"]}`}>
             <a
               target="_blank"
               rel="noreferrer"
               href="http://linkedin.com/in/karol-lann-vel-lace"
-              className={`${styles["footer__list-link"]}`}
+              className={`${styles["footer__list--link"]}`}
             >
               <IconLinkedin height="32px" width="32px" />
-              <span className={`${styles["footer__list-text"]}`}>LinkedIn</span>
+              <span className={`${styles["footer__list--text"]}`}>
+                LinkedIn
+              </span>
             </a>
           </li>
-          <li className={`${styles["footer__list-item"]}`}>
+          <li className={`${styles["footer__list--item"]}`}>
             <a
               target="_blank"
               rel="noreferrer"
               href="https://instagram.com/lannkarol"
-              className={`${styles["footer__list-link"]}`}
+              className={`${styles["footer__list--link"]}`}
             >
               <IconInstagram height="32px" width="32px" />
-              <span className={`${styles["footer__list-text"]}`}>
+              <span className={`${styles["footer__list--text"]}`}>
                 Instagram
               </span>
             </a>
           </li>
-          <li className={`${styles["footer__list-item"]}`}>
+          <li className={`${styles["footer__list--item"]}`}>
             <a
               href="mailto:lannkarol@gmail.com"
-              className={`${styles["footer__list-link"]}`}
+              className={`${styles["footer__list--link"]}`}
             >
               <IconMail height="32px" width="32px" />
-              <span className={`${styles["footer__list-text"]}`}>
+              <span className={`${styles["footer__list--text"]}`}>
                 lannkarol@gmail.com
               </span>
             </a>

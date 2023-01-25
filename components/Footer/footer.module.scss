@@ -24,7 +24,7 @@
     color: var(--color-accent);
   }
 
-  &__list-container {
+  &__listContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
     font-weight: 400;
     font-size: 25px;
 
-    &-link {
+    &--link {
       display: flex;
       align-items: center;
       transition: background-color 0.3s, color 0.3s;
@@ -59,11 +59,11 @@
       }
     }
 
-    &-text {
+    &--text {
       padding-left: 20px;
     }
 
-    &-item {
+    &--item {
       text-align: right;
 
       &:not(:last-of-type) {
@@ -106,7 +106,7 @@
       padding-bottom: 50px;
     }
 
-    &__list-container {
+    &__listContainer {
       padding-right: 0px;
     }
 
@@ -115,15 +115,15 @@
       padding-bottom: 50px;
       flex-wrap: wrap;
 
-      &-link {
+      &--link {
         padding: 10px 10px 10px 15px;
       }
 
-      &-text {
+      &--text {
         padding-left: 10px;
       }
 
-      &-item {
+      &--item {
         text-align: center;
 
         &:not(:last-of-type) {
@@ -146,7 +146,7 @@
       }
     }
     &__list {
-      &-link {
+      &--link {
         font-size: 20px;
       }
     }
@@ -165,14 +165,14 @@
       }
     }
 
-    &__list-container {
+    &__listContainer {
       justify-content: flex-start;
       padding-left: 30px;
     }
     &__list {
       flex-direction: column;
 
-      &-link {
+      &--link {
         padding: 10px 10px 10px 0px;
       }
     }

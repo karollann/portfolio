@@ -1,8 +1,4 @@
-.carousel-container {
-  padding: 160px 0 0 0;
-}
-
-.carousel__img-container {
+.projectCard__imgContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,40 +8,40 @@
 
   background-color: var(--color-accent);
 }
-.carousel__img {
+.projectCard__img {
   object-fit: contain;
   width: 336px;
   height: 194px;
   position: relative;
 }
 
-.carousel__img-title {
+.projectCard__imgTitle {
   margin-top: 20px;
   font-size: 28px;
   color: var(--color-bg);
   font-weight: 400;
 }
 
-.carousel__img-description {
+.projectCard__imgDescription {
   margin-top: 12px;
   font-size: 16px;
   font-weight: 400;
 }
 
 @media only screen and (max-width: 980px) {
-  .carousel-container {
+  .projectCard-container {
     padding: 100px 0 0 0;
   }
 }
 
 @media only screen and (max-width: 410px) {
-  .carousel__img {
+  .projectCard__img {
     width: 269px;
     height: 155px;
   }
 }
 @media only screen and (max-width: 340px) {
-  .carousel__img {
+  .projectCard__img {
     width: 242px;
     height: 139px;
   }

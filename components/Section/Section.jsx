@@ -1,4 +1,4 @@
-import styles from "../styles/components/_section.module.scss";
+import styles from "./section.module.scss";
 
 export const Section = ({ id, title, children }) => {
   return (

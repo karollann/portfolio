@@ -1,5 +1,5 @@
-import { Section } from "./Section";
-import styles from "../styles/components/_courses.module.scss";
+import { Section } from "../Section/Section";
+import styles from "./courses.module.scss";
 
 export const Courses = () => {
   return (

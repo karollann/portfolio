@@ -1,5 +1,5 @@
-import styles from "../styles/components/_header.module.scss";
-import { scrollToID } from "../utils";
+import styles from "./header.module.scss";
+import { scrollToID } from "../../utils";
 
 export function Header() {
   return (

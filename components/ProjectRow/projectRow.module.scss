@@ -1,9 +1,4 @@
-.project {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  // padding-left: 197px;
-
+.projectRow {
   &__heading {
     font-size: 36px;
     font-weight: 400;
@@ -60,7 +55,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .project {
+  .projectRow {
     &__heading {
       font-size: 32px;
     }

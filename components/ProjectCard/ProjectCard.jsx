@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "react-multi-carousel/lib/styles.css";
 
-import carouselStyles from "../styles/components/_carousel.module.scss";
+import projectCardStyles from "./projectCard.module.scss";
 
 export const ProjectCard = ({
   photoImport,
@@ -15,17 +15,17 @@ export const ProjectCard = ({
       href={websiteUrl}
       target="_blank"
       rel="noreferrer"
-      className={`${carouselStyles["carousel__img-container"]}`}
+      className={projectCardStyles.projectCard__imgContainer}
     >
       <Image
         src={photoImport}
         alt={photoDescription}
-        className={carouselStyles.carousel__img}
+        className={projectCardStyles.projectCard__img}
       />
-      <h2 className={`${carouselStyles["carousel__img-title"]}`}>
+      <h2 className={projectCardStyles.projectCard__imgTitle}>
         {projectTitle}
       </h2>
-      <h3 className={`${carouselStyles["carousel__img-description"]}`}>
+      <h3 className={projectCardStyles.projectCard__imgDescription}>
         {projectTechStack}
       </h3>
     </a>

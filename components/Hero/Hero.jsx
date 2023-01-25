@@ -1,6 +1,6 @@
-import styles from "../styles/components/_hero.module.scss";
+import styles from "./hero.module.scss";
 
-import { scrollToID } from "../utils";
+import { scrollToID } from "../../utils";
 
 export function Hero() {
   return (
