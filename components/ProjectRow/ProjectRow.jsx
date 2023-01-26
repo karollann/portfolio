@@ -1,4 +1,5 @@
 import styles from "./projectRow.module.scss";
+import IconArrowUpRight from "../Icons/IconArrowUpRight";
 
 export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
   return (
@@ -13,11 +14,11 @@ export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
         rel="noreferrer"
         className={styles.projectRow__link}
       >
-        <span
-          className={`material-symbols-outlined ${styles["projectRow__icon"]}`}
-        >
-          arrow_outward
-        </span>
+        <IconArrowUpRight
+          width="36px"
+          height="36px"
+          className={styles.projectRow__icon}
+        />
       </a>
     </li>
   );
