@@ -1,5 +1,5 @@
 import { Section } from "../Section/Section";
-import { projectCardData } from "../Carousel/Carousel";
+import { projectCardData } from "../../data";
 import { ProjectRow } from "../ProjectRow/ProjectRow";
 import styles from "./project.module.scss";
 

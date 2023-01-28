@@ -14,11 +14,7 @@ export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
         rel="noreferrer"
         className={styles.projectRow__link}
       >
-        <IconArrowUpRight
-          width="36px"
-          height="36px"
-          className={styles.projectRow__icon}
-        />
+        <IconArrowUpRight className={styles.projectRow__icon} />
       </a>
     </li>
   );
