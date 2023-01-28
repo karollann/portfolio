@@ -1,3 +1,7 @@
+## Link to portfolio: https://karollann.github.io/portfolio/
+
+Acknowledgment: Design inspired by Brightscout's "Web designer Portfolio" on Figma.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
