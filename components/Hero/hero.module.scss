@@ -5,12 +5,7 @@
   height: 623px;
   padding-bottom: 93px;
   background-color: var(--color-accent);
-  background-image: url("../../public/heroPhoto.png");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 12px;
-  background-size: contain;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 
   &__heading {
@@ -18,6 +13,17 @@
     font-size: 100px;
     padding: 25px;
     text-align: center;
+    z-index: 100;
+  }
+
+  &__image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 12px);
+    height: 623px;
+    width: auto;
+    z-index: 1;
+    bottom: 0;
   }
 }
 
@@ -81,17 +87,38 @@
 
 @media only screen and (max-width: 460px) {
   .hero {
-    background-position-y: bottom;
     &__heading {
       font-size: 70px;
     }
   }
 }
-
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 377px) {
   .hero {
+    &__image {
+      width: 98%;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero {
+    height: 478px;
+
     &__heading {
       font-size: 60px;
+    }
+
+    &__image {
+      width: 92%;
+      transform: translate(-50%, 27px);
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  .hero {
+    &__heading {
+      font-size: 50px;
     }
   }
 }
