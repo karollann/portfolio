@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgComponent = (props) => (
+export const IconArrowUpRight = (props) => (
   <svg
     viewBox="0 0 25 25"
     fill="none"
@@ -14,5 +14,3 @@ const SvgComponent = (props) => (
     />
   </svg>
 );
-
-export default SvgComponent;

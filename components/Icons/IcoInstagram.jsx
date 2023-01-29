@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgComponent = (props) => (
+export const IcoInstagram = (props) => (
   <svg
     style={{
       fillRule: "evenodd",
@@ -21,5 +21,3 @@ const SvgComponent = (props) => (
     />
   </svg>
 );
-
-export default SvgComponent;

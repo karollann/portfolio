@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgComponent = (props) => (
+export const IcoMail = (props) => (
   <svg
     id="Layer_1"
     style={{
@@ -26,5 +26,3 @@ const SvgComponent = (props) => (
     />
   </svg>
 );
-
-export default SvgComponent;

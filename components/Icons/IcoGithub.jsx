@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SvgComponent = (props) => (
+export const IcoGithub = (props) => (
   <svg
     viewBox="0 0 16 16"
     xmlns="http://www.w3.org/2000/svg"
@@ -15,5 +15,3 @@ const SvgComponent = (props) => (
     />
   </svg>
 );
-
-export default SvgComponent;

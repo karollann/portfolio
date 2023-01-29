@@ -1,5 +1,5 @@
 import styles from "./projectRow.module.scss";
-import IconArrowUpRight from "../Icons/IconArrowUpRight";
+import { IconArrowUpRight } from "../Icons/IconArrowUpRight";
 
 export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
   return (
