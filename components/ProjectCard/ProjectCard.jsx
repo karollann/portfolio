@@ -18,6 +18,7 @@ export const ProjectCard = ({
       className={projectCardStyles.projectCard__imgContainer}
     >
       <Image
+        priority={true}
         src={photoImport}
         alt={photoDescription}
         className={projectCardStyles.projectCard__img}
