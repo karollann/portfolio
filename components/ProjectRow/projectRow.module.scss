@@ -70,6 +70,16 @@
 
 @media only screen and (max-width: 450px) {
   .projectRow {
+    &__heading {
+      font-size: 20px;
+    }
+
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+      padding-top: 12px;
+    }
+
     &__list {
       align-items: flex-start;
     }
