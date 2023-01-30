@@ -1,12 +1,12 @@
-import natoursPhoto from "./public/projects_photos/natours.png";
-import nexterPhoto from "./public/projects_photos/nexter.png";
-import trilloPhoto from "./public/projects_photos/trillo.png";
-import bankistPhoto from "./public/projects_photos/bankist.png";
-import dadJokesPhoto from "./public/projects_photos/dadJokes.png";
-import forkifyPhoto from "./public/projects_photos/forkify.png";
-import yahtzeePhoto from "./public/projects_photos/yahtzee.png";
-import todoListPhoto from "./public/projects_photos/todoList.png";
-import colorPalettePhoto from "./public/projects_photos/colorPalette.png";
+import natoursPhoto from "./public/projects_photos/natours.avif";
+import nexterPhoto from "./public/projects_photos/nexter.avif";
+import trilloPhoto from "./public/projects_photos/trillo.avif";
+import bankistPhoto from "./public/projects_photos/bankist.avif";
+import dadJokesPhoto from "./public/projects_photos/dadJokes.avif";
+import forkifyPhoto from "./public/projects_photos/forkify.avif";
+import yahtzeePhoto from "./public/projects_photos/yahtzee.avif";
+import todoListPhoto from "./public/projects_photos/todoList.avif";
+import colorPalettePhoto from "./public/projects_photos/colorPalette.avif";
 
 export const projectCardData = [
   {

@@ -16,6 +16,7 @@ export const ProjectCard = ({
       target="_blank"
       rel="noreferrer"
       className={projectCardStyles.projectCard__imgContainer}
+      aria-label={`Go to ${projectTitle} site.`}
     >
       <Image
         priority={true}

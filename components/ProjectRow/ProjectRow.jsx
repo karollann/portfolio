@@ -13,6 +13,7 @@ export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
         target="_blank"
         rel="noreferrer"
         className={styles.projectRow__link}
+        aria-label={`Go to ${projectTitle} repository.`}
       >
         <IconArrowUpRight className={styles.projectRow__icon} />
       </a>

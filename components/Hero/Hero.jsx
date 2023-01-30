@@ -1,5 +1,5 @@
 import styles from "./hero.module.scss";
-import heroPhoto from "../../public/heroPhoto.png";
+import heroPhoto from "../../public/heroPhoto.avif";
 
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ export function Hero() {
       <Image
         priority={true}
         src={heroPhoto}
-        alt="Hero Picture"
+        alt="Picture of Karol"
         className={styles.hero__image}
       />
       <h1 className={styles.hero__heading}>Beginning Web Developer</h1>
