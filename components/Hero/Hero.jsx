@@ -17,6 +17,9 @@ export function Hero() {
         src={heroPhoto}
         alt="Picture of Karol"
         className={styles.hero__image}
+        sizes="(max-width: 800px) 50vw,
+        (max-width: 1200px) 33vw,
+        33vw"
       />
       <h1 className={styles.hero__heading}>Beginning Web Developer</h1>
     </section>

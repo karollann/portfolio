@@ -4,6 +4,7 @@
     font-weight: 500;
     font-style: normal;
     src: url("/assets/PPNeueMontreal-Medium.otf") format("opentype");
+    font-display: swap;
   }
 
   @font-face {
@@ -11,6 +12,7 @@
     font-weight: 400;
     font-style: normal;
     src: url("/assets/PPNeueMontreal-Book.otf") format("opentype");
+    font-display: swap;
   }
 
   --color-white: #ffffff;

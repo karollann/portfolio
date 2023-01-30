@@ -53,10 +53,14 @@ export const Slider = () => {
       ssr={true} // means to render carousel on server-side.
       infinite={true}
       autoPlay={devType !== "mobile" ? true : false}
-      autoPlaySpeed={2000}
+      autoPlaySpeed={devType !== "mobile" ? 3000 : 500}
       keyBoardControl={true}
-      customTransition="transform 1000ms ease-in-out"
-      transitionDuration={500}
+      customTransition={
+        devType !== "mobile"
+          ? "transform 1000ms ease-in-out"
+          : "transform 200ms ease-in-out"
+      }
+      transitionDuration={devType !== "mobile" ? 1000 : 200}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["mobile"]}
       deviceType={devType}

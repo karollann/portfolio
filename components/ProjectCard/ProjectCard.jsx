@@ -23,6 +23,9 @@ export const ProjectCard = ({
         src={photoImport}
         alt={photoDescription}
         className={projectCardStyles.projectCard__img}
+        sizes="(max-width: 800px) 45vw,
+        (max-width: 1200px) 30vw,
+        30vw"
       />
       <h2 className={projectCardStyles.projectCard__imgTitle}>
         {projectTitle}
