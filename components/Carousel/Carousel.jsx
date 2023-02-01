@@ -46,13 +46,13 @@ export const Slider = () => {
   return (
     <Carousel
       className={carouselStyles.carouselContainer}
-      swipeable={true}
+      swipeable={false}
       draggable={true}
       showDots={false}
       responsive={responsive}
       ssr={true} // means to render carousel on server-side.
       infinite={true}
-      autoPlay={devType !== "mobile" ? true : false}
+      autoPlay={true}
       autoPlaySpeed={devType !== "mobile" ? 3000 : 500}
       keyBoardControl={true}
       customTransition={
