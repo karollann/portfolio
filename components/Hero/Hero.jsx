@@ -3,15 +3,13 @@ import heroPhoto from "../../public/heroPhoto.avif";
 
 import Image from "next/image";
 
-import { scrollToID } from "../../utils";
-
 export function Hero() {
   return (
     <section className={styles.hero}>
-      <div className={styles.menu} onClick={() => scrollToID("about-section")}>
+      <a href="#about-section" className={styles.menu}>
         <p className={styles.menu__icon}>👋</p>
         <p className={styles.menu__text}>Hi! I&apos;m Karol</p>
-      </div>
+      </a>
       <Image
         priority={true}
         src={heroPhoto}
