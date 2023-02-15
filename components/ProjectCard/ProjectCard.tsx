@@ -1,7 +1,15 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import "react-multi-carousel/lib/styles.css";
 
 import projectCardStyles from "./projectCard.module.scss";
+
+type ProjectCardProps = {
+  photoImport: StaticImageData;
+  photoDescription: string;
+  projectTitle: string;
+  projectTechStack: string;
+  websiteUrl: string;
+};
 
 export const ProjectCard = ({
   photoImport,
@@ -9,7 +17,7 @@ export const ProjectCard = ({
   projectTitle,
   projectTechStack,
   websiteUrl,
-}) => {
+}: ProjectCardProps) => {
   return (
     <a
       href={websiteUrl}

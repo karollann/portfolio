@@ -1,7 +1,17 @@
 import styles from "./projectRow.module.scss";
 import { IconArrowUpRight } from "../Icons/IconArrowUpRight";
 
-export const ProjectRow = ({ projectTitle, projectTechStack, repoUrl }) => {
+type ProjectRowProps = {
+  projectTitle: string;
+  projectTechStack: string;
+  repoUrl: string;
+};
+
+export const ProjectRow = ({
+  projectTitle,
+  projectTechStack,
+  repoUrl,
+}: ProjectRowProps) => {
   return (
     <li className={styles.projectRow__list}>
       <div className={styles.projectRow__listContent}>

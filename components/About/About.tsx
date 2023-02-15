@@ -3,7 +3,7 @@ import { Section } from "../Section/Section";
 
 export const About = () => {
   return (
-    <Section id="about-section" className={styles.about} title="About">
+    <Section id="about-section" title="About">
       <p className={styles.about__text}>
         I am a physiotherapist with a Ph.D. in medical and health sciences
         living in Warsaw. I am currently working in the orthopedic clinic but I
