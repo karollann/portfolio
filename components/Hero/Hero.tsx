@@ -19,7 +19,7 @@ export function Hero() {
         (max-width: 1200px) 33vw,
         33vw"
       />
-      <h1 className={styles.hero__heading}>Beginning Web Developer</h1>
+      <h1 className={styles.hero__heading}>Junior Frontend Developer</h1>
     </section>
   );
 }
