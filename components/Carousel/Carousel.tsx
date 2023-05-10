@@ -15,7 +15,7 @@ const responsive: ResponsiveType = {
   desktop: {
     breakpoint: { max: 3000, min: BREAKPOINTS.desktop },
     items: 3,
-    slidesToSlide: 3, // optional, default to 1.
+    slidesToSlide: 1, // optional, default to 1.
   },
   tablet: {
     breakpoint: { max: BREAKPOINTS.desktop, min: BREAKPOINTS.tablet },
@@ -50,7 +50,7 @@ export const Slider = () => {
       draggable={true}
       showDots={false}
       responsive={responsive}
-      ssr={false} // means to render carousel on server-side.
+      ssr={false}
       infinite={true}
       autoPlay={true}
       autoPlaySpeed={screenSize !== "mobile" ? 3000 : 2500}
@@ -63,7 +63,7 @@ export const Slider = () => {
       containerClass="carousel-container"
       removeArrowOnDeviceType={["mobile"]}
       deviceType={screenSize}
-      itemClass="carousel-item-padding-40-px"
+      // itemClass="carousel-item-padding-40-px"
     >
       {projectCardData.map((i) => {
         return (

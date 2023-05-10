@@ -7,6 +7,7 @@ import forkifyPhoto from "./public/projects_photos/forkify.avif";
 import yahtzeePhoto from "./public/projects_photos/yahtzee.avif";
 import todoListPhoto from "./public/projects_photos/todoList.avif";
 import colorPalettePhoto from "./public/projects_photos/colorPalette.avif";
+import rentTheHousePhoto from "./public/projects_photos/rentTheHouse.avif";
 
 export const projectCardData = [
   {
@@ -81,5 +82,13 @@ export const projectCardData = [
     projectTechStack: "React.js - Material UI",
     repoUrl: "https://github.com/karollann/color-project",
     websiteUrl: "https://karollann.github.io/color-project/",
+  },
+  {
+    photoImport: rentTheHousePhoto,
+    photoDescription: "Rent The House Project Photo",
+    projectTitle: "Rent The House Project",
+    projectTechStack: "Next.js - Typescript - i18next",
+    repoUrl: "https://github.com/karollann/rent-the-house",
+    websiteUrl: "https://rent-the-house.vercel.app",
   },
 ];
