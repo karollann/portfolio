@@ -8,8 +8,18 @@ import yahtzeePhoto from "./public/projects_photos/yahtzee.avif";
 import todoListPhoto from "./public/projects_photos/todoList.avif";
 import colorPalettePhoto from "./public/projects_photos/colorPalette.avif";
 import rentTheHousePhoto from "./public/projects_photos/rentTheHouse.avif";
+import { StaticImageData } from "next/image";
 
-export const projectCardData = [
+export type ProjectCardData = {
+  photoImport: StaticImageData;
+  photoDescription: string;
+  projectTitle: string;
+  projectTechStack: string;
+  repoUrl: string;
+  websiteUrl: string;
+};
+
+export const projectCardData: ProjectCardData[] = [
   {
     photoImport: natoursPhoto,
     photoDescription: "Natours Project Photo",

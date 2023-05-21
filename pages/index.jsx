@@ -6,7 +6,8 @@ import { About } from "../components/About/About";
 import { Projects } from "../components/Projects/Projects";
 import { Courses } from "../components/Courses/Courses";
 import { Footer } from "../components/Footer/Footer";
-import { Slider } from "../components/Carousel/Carousel";
+// import { Slider } from "../components/Carousel/Carousel";
+import { Gallery } from "../components/Gallery/Gallery";
 
 export default function Home() {
   return (
@@ -28,7 +29,8 @@ export default function Home() {
             <Hero />
             <About />
             <Projects />
-            <Slider />
+            <Gallery />
+            {/* <Slider /> */}
             <Courses />
           </main>
           <Footer />
