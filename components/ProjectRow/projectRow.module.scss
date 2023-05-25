@@ -11,7 +11,7 @@
 
     &:not(:last-of-type) {
       padding-bottom: 16px;
-      border-bottom: solid var(--color-accent);
+      border-bottom: solid var(--color-secondary);
     }
     &:not(:first-of-type) {
       padding-top: 16px;
@@ -34,11 +34,11 @@
     align-items: center;
     width: 60px;
     height: 60px;
-    border: 1px solid var(--color-dark);
+    border: 1px solid var(--color-primary);
     border-radius: 180px;
 
     &:hover {
-      background-color: var(--color-dark);
+      background-color: var(--color-primary);
       opacity: 0.8;
       transition: background-color 0.2s;
 
@@ -49,7 +49,7 @@
   }
 
   &__icon {
-    color: var(--color-dark);
+    color: var(--color-primary);
     height: 36px;
     width: 36px;
   }

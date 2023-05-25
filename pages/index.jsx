@@ -8,6 +8,7 @@ import { Courses } from "../components/Courses/Courses";
 import { Footer } from "../components/Footer/Footer";
 // import { Slider } from "../components/Carousel/Carousel";
 import { Gallery } from "../components/Gallery/Gallery";
+// import ThemeContextWrapper from "../components/ThemeContextWrapper/ThemeContextWrapper";
 
 export default function Home() {
   return (
@@ -21,21 +22,24 @@ export default function Home() {
         />
         <meta name="copyright" content="Copyright owner: Karol Lann Vel Lace" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="color-scheme" content="light dark" />
       </Head>
-      <div>
-        <div className="container">
-          <Header />
-          <main>
-            <Hero />
-            <About />
-            <Projects />
-            <Gallery />
-            {/* <Slider /> */}
-            <Courses />
-          </main>
-          <Footer />
-        </div>
+      {/* <div> */}
+      {/* <ThemeContextWrapper> */}
+      <div className="container">
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Gallery />
+          {/* <Slider /> */}
+          <Courses />
+        </main>
+        <Footer />
       </div>
+      {/* </ThemeContextWrapper> */}
+      {/* </div> */}
     </div>
   );
 }

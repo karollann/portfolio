@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-dark);
+  background-color: var(--color-bg-footer);
   color: var(--color-bg);
   height: 360px;
   display: flex;
@@ -21,7 +21,7 @@
 
   &__text {
     font-size: 20px;
-    color: var(--color-accent);
+    color: var(--color-secondary);
   }
 
   &__listContainer {
@@ -45,12 +45,12 @@
       align-items: center;
       transition: background-color 0.3s, color 0.3s;
       width: fit-content;
-      color: var(--color-bg);
+      color: var(--color-bg-footer);
       margin: 6px;
       border-radius: 10px;
       &:link,
       &:visited {
-        color: var(--color-accent);
+        color: var(--color-secondary);
       }
       &:hover {
         color: white;

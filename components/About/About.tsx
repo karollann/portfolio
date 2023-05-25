@@ -15,13 +15,12 @@ export const About = () => {
         acquired by Motion Capture System I was using. It showed me the immense
         possibilities of programming. Therefore, in February 2022 I decided to
         start learning web development. Since then, I have completed a few
-        online courses concerning main technologies such as HTML, CSS, Sass and
-        JavaScript as well as React.js.
+        online courses concerning main technologies such as HTML, CSS,
+        JavaScript and React.js.
       </p>
       <p className={styles.about__text}>
-        Privately, I am a lover of travel, mountain trips and water sports – as
-        a proof my modest but valuable Instagram 😉 I am also learning French as
-        a hobby.
+        Privately, I am a lover of travel, mountain trips and water sports. I am
+        also learning French as a hobby.
       </p>
       <p className={styles.about__text}>Hope to hear from you!</p>
     </Section>

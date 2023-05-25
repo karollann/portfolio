@@ -1,14 +1,15 @@
 .header {
   display: flex;
   justify-content: flex-end;
-  background-color: var(--color-accent);
+  background-color: var(--color-bg-4);
   padding: 28px 80px;
 
   &__nav {
     font-size: 18px;
+    display: flex;
   }
 
-  &__link {
+  &__item {
     cursor: pointer;
     padding: 10px;
     font-weight: 400;
@@ -20,7 +21,7 @@
     }
 
     &:hover {
-      background-color: var(--color-dark);
+      background-color: var(--color-primary);
       opacity: 0.8;
       color: var(--color-bg-2);
     }
@@ -42,12 +43,12 @@
   }
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 576px) {
   .header {
     &__nav {
       font-size: 25px;
     }
-    &__link {
+    &__item {
       & + & {
         margin-left: 15px;
       }
@@ -55,12 +56,12 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
   .header {
     &__nav {
       font-size: 20px;
     }
-    &__link {
+    &__item {
       & + & {
         margin-left: 10px;
       }
