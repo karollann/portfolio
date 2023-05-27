@@ -1,31 +1,21 @@
-import { useEffect, useState, MouseEvent } from "react";
+import { useEffect, useState, MouseEvent, useLayoutEffect } from "react";
+import { useTheme } from "next-themes";
 import styles from "./themeToggleButton.module.scss";
 import { isBrowser } from "../../utils";
 import { IconSun } from "../Icons/IconSun";
 import { IconMoon } from "../Icons/IconMoon";
 
 export const ThemeToggleButton = () => {
-  const [theme, setTheme] = useState<"light" | "dark">(
-    isBrowser &&
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light"
-  );
-
-  const toggleTheme = (theme: "light" | "dark") => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("darkMode");
-      document.documentElement.classList.remove("lightMode");
-    } else {
-      document.documentElement.classList.add("lightMode");
-      document.documentElement.classList.remove("darkMode");
-    }
-  };
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    toggleTheme(theme);
-  }, [theme]);
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <div className={styles.themeToggleWrapper}>
@@ -33,7 +23,7 @@ export const ThemeToggleButton = () => {
         <input
           type="checkbox"
           id="checkbox"
-          onClick={(e: MouseEvent) => {
+          onClick={() => {
             setTheme(theme === "dark" ? "light" : "dark");
           }}
         />

@@ -97,7 +97,7 @@ export const projectCardData: ProjectCardData[] = [
     photoImport: rentTheHousePhoto,
     photoDescription: "Rent The House Project Photo",
     projectTitle: "Rent The House Project",
-    projectTechStack: "Next.js - Typescript - i18next",
+    projectTechStack: "Next.js - Typescript - i18next - EmailJS",
     repoUrl: "https://github.com/karollann/rent-the-house",
     websiteUrl: "https://rent-the-house.vercel.app",
   },
