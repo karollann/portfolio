@@ -1,3 +1,6 @@
+/** @type {import('next').NextConfig} */
+const { i18n } = require("./next-i18next.config");
+
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 let assetPrefix = undefined;
@@ -12,6 +15,7 @@ if (isGithubActions) {
 
 module.exports = {
   reactStrictMode: true,
+  i18n,
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {

@@ -2,23 +2,26 @@ import { IcoGithub } from "../Icons/IcoGithub";
 import { IcoLinkedin } from "../Icons/IcoLinkedin";
 import { IcoMail } from "../Icons/IcoMail";
 import { IcoInstagram } from "../Icons/IcoInstagram";
+import { useTranslation } from "next-i18next";
 
 import styles from "./footer.module.scss";
 
 export const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer id="footer" className={styles.footer}>
       <div className={styles.footer__container}>
         <h2 className={styles.footer__heading}>
           <span className={`${styles["footer__heading--1"]}`}>
-            Have something in mind?
+            {t("footer.headingOne")}
           </span>
           <span className={`${styles["footer__heading--2"]}`}>
-            Let&apos;s build it together!
+            {t("footer.headingTwo")}
           </span>
         </h2>
         <span className={styles.footer__text}>
-          Built by Karol Lann Vel Lace
+          {t("footer.acknowledgment")}
         </span>
       </div>
       <div className={`${styles["footer__listContainer"]}`}>

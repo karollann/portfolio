@@ -1,0 +1,18 @@
+{
+  "header": { "about": "O mnie", "projects": "Projekty", "contact": "Kontakt" },
+  "hero": { "introduction": "Hej! Jestem Karol" },
+  "about": {
+    "about": "O mnie",
+    "partOne": "Jestem fizjoterapeutą z tytułem doktora nauk medycznych i nauk o zdrowiu, mieszkam w Warszawie. Obecnie pracuję w klinice ortopedycznej, ale chciałbym zmienić swój zawód i podjąć nowe wyzwania jako front-end developer.",
+    "partTwo": "Podczas przygotowywania pracy doktorskiej jednym z największych wyzwań było przetwarzanie danych pozyskanych przez system motion capture, z którego korzystałem. Pokazał mi to ogromne możliwości programowania, dlatego w lutym 2022 roku zdecydowałem się rozpocząć naukę w tym zakresie. Od tego czasu ukończyłem kilka kursów online dotyczących takich technologii jak HTML, CSS, JavaScript i React.js.",
+    "partThree": "Prywatnie jestem miłośnikiem podróży, wycieczek górskich i sportów wodnych. Uczę się też francuskiego.",
+    "partFour": "Czekam na wiadomość od Ciebie!"
+  },
+  "projects": "Projekty",
+  "courses": "Kursy",
+  "footer": {
+    "headingOne": "Masz pomysł?",
+    "headingTwo": "Stwórzmy to razem!",
+    "acknowledgment": "Stworzone przez Karola Lann Vel Lace"
+  }
+}

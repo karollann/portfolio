@@ -1,0 +1,18 @@
+{
+  "header": { "about": "About", "projects": "Projects", "contact": "Contact" },
+  "hero": { "introduction": "Hi! I'm Karol" },
+  "about": {
+    "about": "About",
+    "partOne": "I am a physiotherapist with a Ph.D. in medical and health sciences living in Warsaw. I am currently working in the orthopedic clinic but I would like to change my line of work and take up new challenges as a front-end developer.",
+    "partTwo": "In my Ph.D. research one of the greatest challenges was processing data acquired by Motion Capture System I was using. It showed me the immense possibilities of programming. Therefore, in February 2022 I decided to start learning web development. Since then, I have completed a few online courses concerning main technologies such as HTML, CSS, JavaScript and React.js.",
+    "partThree": "Privately, I am a lover of travel, mountain trips and water sports. I am also learning French as a hobby.",
+    "partFour": "Hope to hear from you!"
+  },
+  "projects": "Projects",
+  "courses": "Courses",
+  "footer": {
+    "headingOne": "Have something in mind?",
+    "headingTwo": "Let's build it together!",
+    "acknowledgment": "Built by Karol Lann Vel Lace"
+  }
+}

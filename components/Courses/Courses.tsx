@@ -1,9 +1,12 @@
 import { Section } from "../Section/Section";
 import styles from "./courses.module.scss";
+import { useTranslation } from "next-i18next";
 
 export const Courses = () => {
+  const { t } = useTranslation();
+
   return (
-    <Section title="Courses">
+    <Section title={t("courses")}>
       <ul>
         <li className={styles.courses}>
           <h3 className={styles.courses__heading}>

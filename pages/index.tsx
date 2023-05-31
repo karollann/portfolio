@@ -1,5 +1,5 @@
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Head from "next/head";
-
 import { Header } from "../components/Header/Header";
 import { Hero } from "../components/Hero/Hero";
 import { About } from "../components/About/About";
@@ -8,7 +8,14 @@ import { Courses } from "../components/Courses/Courses";
 import { Footer } from "../components/Footer/Footer";
 // import { Slider } from "../components/Carousel/Carousel";
 import { Gallery } from "../components/Gallery/Gallery";
-// import ThemeContextWrapper from "../components/ThemeContextWrapper/ThemeContextWrapper";
+
+export async function getStaticProps({ locale }: { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["homePage"])),
+    },
+  };
+}
 
 export default function Home() {
   return (
@@ -24,8 +31,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="color-scheme" content="light dark" />
       </Head>
-      {/* <div> */}
-      {/* <ThemeContextWrapper> */}
       <div className="container">
         <Header />
         <main>
@@ -38,8 +43,6 @@ export default function Home() {
         </main>
         <Footer />
       </div>
-      {/* </ThemeContextWrapper> */}
-      {/* </div> */}
     </div>
   );
 }
