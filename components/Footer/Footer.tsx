@@ -1,7 +1,7 @@
-import { IcoGithub } from "../Icons/IcoGithub";
-import { IcoLinkedin } from "../Icons/IcoLinkedin";
-import { IcoMail } from "../Icons/IcoMail";
-import { IcoInstagram } from "../Icons/IcoInstagram";
+import { IcoGithub } from "../Icons/IconGithub";
+import { IcoLinkedin } from "../Icons/IconLinkedin";
+import { IcoMail } from "../Icons/IconMail";
+import { IcoInstagram } from "../Icons/IconInstagram";
 import { useTranslation } from "next-i18next";
 
 import styles from "./footer.module.scss";

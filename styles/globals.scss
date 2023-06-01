@@ -98,6 +98,11 @@ body {
   background-repeat: no-repeat;
 }
 
+button {
+  all: unset;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1200px;
   background-color: var(--color-bg-1);

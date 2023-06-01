@@ -1,9 +1,12 @@
+import { LanguageToggleButton } from "../LanguageToggleButton/LanguageToggleButton";
 import { ThemeToggleButton } from "../ThemeToggleButton/ThemeToggleButton";
 import styles from "./header.module.scss";
 import { useTranslation } from "next-i18next";
 
 export function Header() {
   const { t } = useTranslation();
+
+  // console.log("i18n", i18n);
 
   return (
     <header className={styles.header}>
@@ -18,6 +21,7 @@ export function Header() {
           {t("header.contact")}
         </a>
         <ThemeToggleButton />
+        <LanguageToggleButton />
       </nav>
     </header>
   );

@@ -1,0 +1,32 @@
+.languageToggleButton {
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .languageToggleButton {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .languageToggleButton {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .languageToggleButton {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .languageToggleButton {
+    margin-left: 4px;
+  }
+}
