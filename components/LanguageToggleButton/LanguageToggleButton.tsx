@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { IconPolishFlag } from "../Icons/IconPolishFlag";
 import { IconUKFlag } from "../Icons/IconUKFlag";
 import styles from "./languageToggleButton.module.scss";
